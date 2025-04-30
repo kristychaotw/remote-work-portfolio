@@ -1,0 +1,77 @@
+{
+  "home": {
+    "title": "Kristy Chao Portfolio / Collaboration Page",
+    "introduction": "👋 Hi, I’m Kristy — a frontend engineer with 2 years of experience in SaaS product development, and a creator growing a yoga teaching practice.\n\nI've recently adjusted my work rhythm and now have space to support flexible collaborations, short-term projects, or creative support work. If you're looking for someone dependable, or just thought of me for a project — I’d love to connect!",
+    "content": [
+      {
+        "headings": "What I Can Help With (Tech & Creative)",
+        "textType": "table",
+        "text": [
+          ["Type of Work", "What I Can Do"],
+          [
+            "Frontend Collaboration",
+            "Web applications using React.js / Vue.js / Next.js｜Responsive design｜HTML/CSS support｜Simple animations｜Firebase integration｜GA integration｜SEO services"
+          ],
+          [
+            "Visual + Content Integration",
+            "Basic brand site planning & development｜Social media visuals (Canva/Figma)｜Copywriting support｜Article/blog post writing"
+          ],
+          [
+            "Workshop & Creative Support",
+            "Workshop assistance / co-creation (e.g. meditation, writing, mind-body relaxation)｜Flow design / curriculum structuring"
+          ],
+          [
+            "Company Partnerships",
+            "Feature outsourcing｜Short-term collaboration support"
+          ]
+        ]
+      },
+      {
+        "headings": "Tech Skills",
+        "textType": "table",
+        "text": [
+          ["Category", "Skillset"],
+          ["Frontend", "React, Redux, Next.js, Tailwind CSS, Vue.js"],
+          [
+            "Backend / DB",
+            "Firebase (Auth, Firestore, Hosting), Node.js basics"
+          ],
+          ["Tools", "Git, GitHub, Vercel, Notion, Figma, ChatGPT"],
+          [
+            "AI Applications",
+            "Using AI to assist with writing tests, copy optimization, content creation, and automation scripts"
+          ]
+        ]
+      },
+      {
+        "headings": "Flexible Collaboration Models",
+        "textType": "array",
+        "text": [
+          "- Remote collaboration available",
+          "- Support for weekly / one-off projects / async communication",
+          "- You're welcome to bring a rough idea — we can explore and shape it together"
+        ]
+      },
+      {
+        "headings": "What I’ve Done Before",
+        "textType": "array",
+        "text": [
+          "Developed CRM SaaS modules like account management, permissions, and invoicing (React / Redux)",
+          "Created brand websites (Next.js + Firebase)",
+          "Planned and taught multiple community yoga classes",
+          "Created content and marketing visuals for DongDong Yoga Club (IG, LINE official account)"
+        ]
+      },
+      {
+        "headings": "Reach Out (A simple hello is enough!)",
+        "textType": "array",
+        "text": [
+          "Email｜kristy334420@gmail.com",
+          "IG｜@bodyknowsme",
+          "LINE｜Feel free to DM",
+          "If you'd like to work with me, feel free to share this page 🙏"
+        ]
+      }
+    ]
+  }
+}
