@@ -2,70 +2,11 @@
   "home": {
     "title": "Kristy Chao 接案 / 協作介紹頁",
     "introduction": "👋 Hi，我是 Kristy，一位具有 2 年 SaaS 軟體經驗的前端工程師，同時也是正在發展瑜伽教學事業的創作者。\n\n近期因生活節奏調整，有餘裕接一些 彈性協作 / 小案子 / 創意支援類型工作，如果你有案子正在找人手、臨時需要幫忙，或剛好想到我，我都很樂意聊聊看看～",
-    "content": [
-      {
-        "headings": "我可以協助的項目（技術與創意類）",
-        "textType": "table",
-        "text": [
-          ["項目類型", "可做內容"],
-          [
-            "前端協作",
-            "React.js / Vue.js / Next.js 網頁應用程式｜RWD｜切版支援｜簡易動態功能｜Firebase 串接｜GA 串接｜SEO 服務"
-          ],
-          [
-            "視覺與內容整合",
-            "品牌網站簡單規劃＋開發｜社群貼文設計（Canva/Figma）｜文案協助撰寫｜文章撰寫"
-          ],
-          [
-            "活動與創作支援",
-            "工作坊支援／主題共創（如：冥想、寫作、身心放鬆）｜流程設計／教案整理"
-          ],
-          ["企業合作", "公司功能外包｜短期協作支援"]
-        ]
-      },
-      {
-        "headings": "技術技能 Tech Skills",
-        "textType": "table",
-        "text": [
-          ["分類", "技能內容"],
-          ["前端", "React、Redux、Next.js、Tailwind CSS、Vue.js"],
-          [
-            "後端 / 資料庫",
-            "Firebase（Auth、Firestore、Hosting）、Node.js 基礎"
-          ],
-          ["工具", "Git、GitHub、Vercel、Notion、Figma、ChatGPT"],
-          ["AI 應用", "AI 協助撰寫測試程式、文案優化、內容產製、自動化腳本"]
-        ]
-      },
-      {
-        "headings": "合作方式彈性",
-        "textType": "array",
-        "text": [
-          "- 可遠端進行",
-          "- 支援週案 / 單次協作 / 非同步溝通",
-          "- 也歡迎你帶著一個「模糊的想法」來，我們可以一起聊聊怎麼做"
-        ]
-      },
-      {
-        "headings": "我過去做過的事情",
-        "textType": "array",
-        "text": [
-          "開發 CRM SaaS 系統中的帳號管理、權限、發票模組（React / Redux）",
-          "製作品牌形象網站（Next.js + Firebase）",
-          "策劃並執行多場社區瑜伽課",
-          "自媒體經營：洞洞瑜伽社 IG、LINE 官方帳號行銷設計"
-        ]
-      },
-      {
-        "headings": "聯絡我聊聊（歡迎簡單一句話就好）",
-        "textType": "array",
-        "text": [
-          "Email｜kristy334420@gmail.com",
-          "IG｜@bodyknowsme",
-          "LINE｜可私訊詢問",
-          "想請我幫忙，也可以直接轉這個頁面給朋友 🙏"
-        ]
-      }
-    ]
+    "portfolio": "作品集"
+  },
+  "portfolio": {
+    "title": "作品集",
+    "description": "這裡是我做過的項目。",
+    "viewProject": "查看專案"
   }
 }
