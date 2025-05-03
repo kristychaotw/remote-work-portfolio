@@ -1,19 +1,12 @@
 import { getTranslations, getLocale } from "next-intl/server";
-import { portfolioContent } from "@/data/portfolioContent";
-
-type PortfolioItem = {
-  id: string;
-  title: string;
-  description: string;
-  link: string;
-};
+import { portfolioContent, PortfolioItem } from "@/data/portfolioContent";
 
 export default async function PortfolioPage() {
   const t = await getTranslations("portfolio");
   const rawLocale = await getLocale();
   const locale = rawLocale.startsWith("zh") ? "zh" : "en";
 
-  const content = portfolioContent[locale as "zh" | "en"];
+  const content: PortfolioItem[] = portfolioContent[locale];
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">
@@ -21,7 +14,7 @@ export default async function PortfolioPage() {
       <p className="mb-10 text-gray-700">{t("description")}</p>
 
       <ul className="space-y-6">
-        {content.map((item: PortfolioItem) => (
+        {content.map((item) => (
           <li key={item.id} className="border p-4 rounded shadow-sm">
             <h2 className="text-xl font-semibold">{item.title}</h2>
             <p className="text-gray-600">{item.description}</p>

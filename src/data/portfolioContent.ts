@@ -1,4 +1,11 @@
-export const portfolioContent = {
+export type PortfolioItem = {
+  id: string;
+  title: string;
+  description: string;
+  link: string;
+};
+
+export const portfolioContent: Record<"zh" | "en", PortfolioItem[]> = {
   zh: [
     {
       id: "crm-system",
@@ -11,6 +18,12 @@ export const portfolioContent = {
       title: "品牌網站製作",
       description: "使用 Next.js + Firebase 架設形象官網",
       link: "https://loveboboanimalreiki.com/",
+    },
+    {
+      id: "vue-todo",
+      title: "Vue TodoList 小專案",
+      description: "練習 Vue 3 基礎語法與組件設計",
+      link: "https://kristychaotw.github.io/vue-todolist/",
     },
   ],
   en: [
@@ -26,6 +39,12 @@ export const portfolioContent = {
       title: "Brand Website",
       description: "Developed a marketing site using Next.js and Firebase.",
       link: "https://loveboboanimalreiki.com/",
+    },
+    {
+      id: "vue-todo",
+      title: "Vue TodoList",
+      description: "Practiced Vue 3 syntax and component design",
+      link: "https://kristychaotw.github.io/vue-todolist/",
     },
   ],
 };
