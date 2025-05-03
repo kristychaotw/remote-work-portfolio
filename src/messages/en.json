@@ -7,6 +7,7 @@
   "portfolio": {
     "title": "Portfolio",
     "description": "Here are some of the projects I’ve worked on.",
-    "viewProject": "View project"
+    "viewProject": "View project",
+    "toHome": "Go to HomePage"
   }
 }

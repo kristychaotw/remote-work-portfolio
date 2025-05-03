@@ -1,5 +1,6 @@
 import { getTranslations, getLocale } from "next-intl/server";
 import { portfolioContent, PortfolioItem } from "@/data/portfolioContent";
+import { Link } from "@/i18n/navigation";
 
 export default async function PortfolioPage() {
   const t = await getTranslations("portfolio");
@@ -12,7 +13,9 @@ export default async function PortfolioPage() {
     <main className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-bold mb-6">{t("title")}</h1>
       <p className="mb-10 text-gray-700">{t("description")}</p>
-
+      <Link className="text-blue-600 hover:text-blue-800 block mb-8 " href="/">
+        {t("toHome")}
+      </Link>
       <ul className="space-y-6">
         {content.map((item) => (
           <li key={item.id} className="border p-4 rounded shadow-sm">
